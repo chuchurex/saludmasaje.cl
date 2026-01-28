@@ -100,9 +100,10 @@ p{color:var(--gray-600);font-size:1.125rem}
 .corporate-info{max-width:900px;margin:0 auto var(--space-3xl);text-align:center}
 .corporate-info h3{margin-bottom:var(--space-lg);font-size:2rem}
 .corporate-info>p{margin-bottom:var(--space-lg);font-size:1.125rem;line-height:1.7;max-width:800px;margin-left:auto;margin-right:auto}
-.corporate-benefits{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-lg);margin-top:var(--space-xl);text-align:left;max-width:800px;margin-left:auto;margin-right:auto}
+.corporate-benefits{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--space-md);margin-top:var(--space-xl);text-align:left;max-width:100%}
+@media(max-width:992px){.corporate-benefits{grid-template-columns:1fr 1fr}}
 @media(max-width:576px){.corporate-benefits{grid-template-columns:1fr}}
-.benefit-item{display:flex;align-items:flex-start;gap:var(--space-md);padding:var(--space-lg);background:var(--white);border-radius:var(--radius-lg);border:1px solid var(--gray-200)}
+.benefit-item{display:flex;align-items:flex-start;gap:var(--space-sm);padding:var(--space-md);background:var(--white);border-radius:var(--radius-md);border:1px solid var(--gray-200)}
 .benefit-icon{width:24px;height:24px;display:flex;align-items:center;justify-content:center;color:var(--success);flex-shrink:0;margin-top:2px}
 .benefit-text h4{font-family:var(--font-body);font-size:1.125rem;font-weight:600;margin-bottom:var(--space-xs);color:var(--gray-800)}
 .benefit-text p{font-size:1rem;margin:0;color:var(--gray-600);line-height:1.5}
