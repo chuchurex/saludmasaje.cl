@@ -93,7 +93,7 @@ Los testimonios actuales son de ejemplo. Reemplázalos con testimonios reales cu
 ## 📱 Contacto configurado
 
 - **WhatsApp:** +56 9 9539 9487
-- **Email:** javier@saludmasaje.cl
+- **Email:** javiermena@saludmasaje.cl
 - **Cobertura:** Santiago de Chile
 
 ## 🔧 Próximos pasos (Fase 2)
