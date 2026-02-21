@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://saludmasaje.cl/sitemap.xml
